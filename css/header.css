@@ -1,0 +1,93 @@
+#inner {
+  padding: 0 1.5rem;
+  padding-top: 12vh;
+}
+#outer {
+  padding: 0 1.5rem;
+  padding-top: 2vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #fff;
+  z-index: 999;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-flow: row nowrap;
+  color: var(--text-color);
+  height: 1rem;
+}
+
+.status__col {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.status .status__time {
+  padding-left: 1.5em;
+  align-self: flex-end;
+}
+
+.status .status__text {
+  margin-left: 5px;
+}
+.status .status__icon {
+  margin-left: 7px;
+}
+
+.header {
+  margin-top: 2rem;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__title {
+  font-weight: 600;
+}
+
+.header .header__icon {
+  margin-left: 20px;
+}
+/* SETTING SECTION HEADER */
+.setting__header {
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.setting__header-col {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.setting__header-col a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  text-align: left;
+}
+/* SETTING SECTION HEADER |||END||| */
+
+/* CHAT SECTION HEADER  */
+
+.header-col:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-col:first-child .header__icon {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.chat__header .header-col--name {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+/* CHAT SECTION HEADER |||END */

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NOMAD | CHATS</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="outer">
+      <div class="status">
+        <div class="status__col">
+          <span class="status__time">10:22</span>
+        </div>
+        <div class="status__col status__icon-wrap">
+          <i class="fas fa-signal status__icon"></i>
+          <span class="status__text">LTE</span>
+          <i class="fas fa-battery-full status__icon"></i>
+        </div>
+      </div>
+      <!-- //STATUS// END -->
+
+      <header class="header">
+        <div class="header-col"><span class="header__title">채팅</span></div>
+        <div class="header-col">
+          <i class="fas fa-search header__icon"></i>
+          <i class="far fa-comment header__icon"></i>
+          <a href="setting.html"> <i class="fas fa-cog header__icon"></i></a>
+        </div>
+      </header>
+      <!-- //HEADER// END -->
+    </div>
+    <div id="inner">
+      <!-- INDEX CORE CONTENTS START -->
+      <main class="chats">
+        <ul>
+          <li onclick="location.href='chat.html';" class="chats__list g-flex">
+            <div class="chats__col-left chats-col col--pdright">
+              <img
+                src="images/gicon.jpg"
+                alt="Billy"
+                class="chats__avatar g-avatar"
+              />
+            </div>
+
+            <!-- flex:1, flex-direction:column-->
+            <div class="chats__col-right chats-col">
+              <!-- justify-content:space-between -->
+              <div class="chats-col--top">
+                <h5 class="chats__name">Billy</h5>
+                <span class="chats__timestamp g-span">오전 8:20</span>
+              </div>
+              <div class="chats-col-bottom">
+                <span class="chats__preview">This is A TEST</span>
+                <span class="chats__noom">8</span>
+              </div>
+            </div>
+          </li>
+          <li onclick="location.href='chat.html';" class="chats__list g-flex">
+            <div class="chats__col-left chats-col col--pdright">
+              <img
+                src="images/gicon.jpg"
+                alt="Billy"
+                class="chats__avatar g-avatar"
+              />
+            </div>
+
+            <!-- flex:1, flex-direction:column-->
+            <div class="chats__col-right chats-col">
+              <!-- justify-content:space-between -->
+              <div class="chats-col--top">
+                <h5 class="chats__name">Billy</h5>
+                <span class="chats__timestamp g-span">오전 8:20</span>
+              </div>
+              <div class="chats-col-bottom">
+                <span class="chats__preview"
+                  >Nomad Chapter 1 : KOKOA CLONE</span
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <!-- INDEX CORE CONTENTS |||END||| -->
+    </div>
+    <!--INNER END-->
+    <nav class="nav-bar">
+      <ul>
+        <li class="nav__list">
+          <a href="friend.html"><i class="far fa-user nav__icon"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="index.html"><i class="fas fa-comment nav__icon"></i></a>
+          <span>8</span>
+          <!-- POSITION: ABSOLUTE -->
+        </li>
+        <li class="nav__list">
+          <a href="find.html"><i class="fas fa-hashtag nav__icon"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="more.html"><i class="fas fa-ellipsis-h nav__icon"></i></a>
+        </li>
+      </ul>
+      <div class="nav-bar__endbar"></div>
+    </nav>
+
+    <!-- NAV END -->
+    <!-- Media Query -->
+    <div class="warning">
+      <h1 class="warning__title">the width is too big</h1>
+      <h2 class="warning__subtitle">Please shrink site up to 500px</h2>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NOMAD | FRIEND</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="outer">
+      <div class="status">
+        <div class="status__col">
+          <span class="status__time">10:22</span>
+        </div>
+        <div class="status__col status__icon-wrap">
+          <i class="fas fa-signal status__icon"></i>
+          <span class="status__text">LTE</span>
+          <i class="fas fa-battery-full status__icon"></i>
+        </div>
+      </div>
+      <!-- //STATUS// END -->
+
+      <header class="header">
+        <div class="header-col"><span class="header__title">친구</span></div>
+        <div class="header-col">
+          <i class="fas fa-search header__icon"></i>
+          <i class="far fa-comment header__icon"></i>
+          <a href="setting.html"> <i class="fas fa-cog header__icon"></i></a>
+        </div>
+      </header>
+      <!-- //HEADER// END -->
+    </div>
+    <div id="inner">
+      <!-- FRIEND CORE CONTENTS START -->
+      <main class="friends">
+        <div class="friends__me me">
+          <div class="me__img-wrap col--pdright">
+            <img
+              src="images/avatar.jpg"
+              alt="Billy"
+              class="friends__avatar g-avatar g-avatar-lg"
+            />
+          </div>
+          <h3 class="me__name">세명</h3>
+        </div>
+        <div class="friends__plus plus">
+          <span class="friends__category-title">플러스친구</span>
+          <ul>
+            <li class="friends__list plus__list g-flex">
+              <div class="me__img-wrap col--pdright">
+                <img
+                  src="images/m.svg"
+                  alt="Billy"
+                  class="friends__avatar g-avatar"
+                />
+              </div>
+              <div class="friends-col">
+                <div class="friends-col--left plus-left">
+                  <h4 class="chats__name"><strong>NOMAD CODER</strong></h4>
+                </div>
+                <div class="friends-col--right plus-right">
+                  <span class="plus__number">1</span>
+                  <i class="fas fa-chevron-right "></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <section class="friends__friend">
+          <span class="friends__category-title">친구 1</span>
+          <ul>
+            <li class="friends__list g-flex">
+              <div class="chats-col col--pdright">
+                <img
+                  src="images/gicon.jpg"
+                  alt="Billy"
+                  class="friends__avatar g-avatar"
+                />
+              </div>
+
+              <div class="friends-col">
+                <div class="friends-col--left">
+                  <h4 class="chats__name">Billy</h4>
+                </div>
+                <div class="friends-col--right">
+                  <div class="friends__music music">
+                    <span class="music__name"
+                      >Metallica - Master Of Puppet
+                    </span>
+                    <i class="fas fa-caret-right music__icon"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <!-- FRIEND CORE CONTENTS |||END||| -->
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li class="nav__list">
+          <a href="friend.html"><i class="fas fa-user nav__icon"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="index.html"><i class="far fa-comment nav__icon"></i></a>
+          <span>8</span>
+          <!-- POSITION: ABSOLUTE -->
+        </li>
+        <li class="nav__list">
+          <a href="find.html"><i class="fas fa-hashtag nav__icon"></i></a>
+        </li>
+        <li class="nav__list">
+          <a href="more.html"><i class="fas fa-ellipsis-h nav__icon"></i></a>
+        </li>
+      </ul>
+      <div class="nav-bar__endbar"></div>
+    </nav>
+    <!-- NAV END -->
+    <!-- Media Query -->
+    <div class="warning">
+      <h1 class="warning__title">the width is too big</h1>
+      <h2 class="warning__subtitle">Please shrink site up to 500px</h2>
+    </div>
+  </body>
+</html>

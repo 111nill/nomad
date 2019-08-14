@@ -1,0 +1,53 @@
+.warning {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: -moz-linear-gradient(
+    top,
+    rgba(219, 244, 141, 0.94) 0%,
+    rgba(220, 244, 140, 0.94) 1%,
+    rgba(249, 244, 102, 0.73) 47%,
+    rgba(249, 244, 102, 0.99) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(219, 244, 141, 0.94) 0%,
+    rgba(220, 244, 140, 0.94) 1%,
+    rgba(249, 244, 102, 0.73) 47%,
+    rgba(249, 244, 102, 0.99) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(219, 244, 141, 0.94) 0%,
+    rgba(220, 244, 140, 0.94) 1%,
+    rgba(249, 244, 102, 0.73) 47%,
+    rgba(249, 244, 102, 0.99) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0dbf48d', endColorstr='#fcf9f466',GradientType=0 ); /* IE6-9 */
+  z-index: 99999999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning__title {
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.warning__subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+  .warning {
+    display: none;
+  }
+}

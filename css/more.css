@@ -1,0 +1,97 @@
+.pay {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  background: #f2f2f2;
+  border-radius: 10px;
+
+  color: var(--text-color);
+}
+
+.pay__col-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.pay__col-left .pay__icon {
+  margin-right: 3px;
+  font-size: 20px;
+}
+.pay__col-left .pay__icon-grey {
+  margin-right: 8px;
+  color: #8d8d8d;
+}
+.pay__text,
+.pay__text-grey {
+  font-size: 18px;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+.text-bold {
+  font-weight: 900;
+}
+.pay__text-grey {
+  color: #8d8d8d;
+  font-weight: 300;
+}
+
+.pay__credit {
+  background: #fcfcfc;
+  padding: 3px 7px;
+  border: 1px solid #f7f7f7;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.pay__col-right {
+  font-size: 18px;
+  font-weight: 500;
+}
+.pay__link-border {
+  padding-left: 10px;
+  margin-left: 8px;
+  border-left: 2px solid #fcfcfc;
+}
+
+.more ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.more .more__list {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.more__list .more__icon {
+  display: block;
+  margin-bottom: 15px;
+}
+.more__list .more__list-name {
+  font-size: 14px;
+  color: #8d8d8d;
+  font-weight: 300;
+}
+
+.more__ad {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ad__wrap-more {
+  width: 100%;
+  padding: 10px;
+  font-weight: 500;
+  color: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

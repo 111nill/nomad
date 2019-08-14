@@ -1,0 +1,63 @@
+.setting {
+  height: 100%;
+}
+.setting .setting__write {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  background: #ccc;
+  border: none;
+  font-weight: 500;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 0.5rem;
+}
+.setting .setting__write:focus {
+  outline: none;
+}
+
+.setting .setting__lists {
+  display: block;
+  height: 100%;
+}
+
+.setting__lists .setting__list {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #0f0f0f;
+}
+
+.setting__lists .setting__list:first-child {
+  padding-top: 0;
+}
+.setting__col {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.25rem;
+}
+.setting__list .setting__col-icon {
+  display: flex;
+  flex: 0 0 10%;
+}
+
+.setting__list .setting__col-text {
+  flex: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.setting__icon {
+  font-size: 1.625rem;
+}
+.setting__btn-icon {
+  font-size: 24px;
+  color: #aaa;
+}
+.setting__list .setting__name {
+  font-size: 1.25rem;
+}

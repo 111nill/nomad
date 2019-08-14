@@ -1,0 +1,78 @@
+.friends {
+  width: 100%;
+  height: 1000vh;
+}
+
+.me {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.me__img-wrap {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.me__name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.plus {
+  padding: 0.75rem 0;
+  margin: 12px 0;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+.plus ul,
+.friends__friend {
+  height: 100%;
+}
+.friends__category-title {
+  width: 3.5rem;
+  display: block;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--menu-text-color);
+}
+.friends__list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.friends-col {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plus-right i {
+  color: var(--menu-text-color);
+}
+.plus__number {
+  font-weight: 400;
+  color: var(--menu-text-color);
+}
+
+.music {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #39d969;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: baseline;
+  max-width: 100%;
+}
+
+.music .music__icon {
+  font-size: 1rem;
+  margin-left: 7px;
+  color: #39d969;
+}

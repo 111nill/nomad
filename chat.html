@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NOMAD | CHAT</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="outer" class="outer__chat">
+      <div class="status">
+        <div class="status__col">
+          <span class="status__time">10:22</span>
+        </div>
+        <div class="status__col status__icon-wrap">
+          <i class="fas fa-signal status__icon"></i>
+          <span class="status__text">LTE</span>
+          <i class="fas fa-battery-full status__icon"></i>
+        </div>
+      </div>
+      <!-- //STATUS// END -->
+
+      <header class="chat__header header">
+        <div class="header-col">
+          <a href="index.html"
+            ><i class="fas fa-chevron-left header__icon"></i
+            ><span class="header__title">12</span></a
+          >
+        </div>
+        <div class="header-col--name">
+          <span class="header__title">Billy</span>
+        </div>
+        <div class="header-col">
+          <i class="fas fa-search header__icon"></i>
+          <i class="fas fa-bars header__icon"></i>
+        </div>
+      </header>
+      <!-- //HEADER// END -->
+    </div>
+    <div id="inner" class="inner__chat">
+      <!-- INDEX CORE CONTENTS START -->
+      <main class="chat">
+        <ul class="chat__messages">
+          <li class="message__other other message">
+            <div class="other__col-left  col--pdright">
+              <img
+                src="images/gicon.jpg"
+                alt="Billy"
+                class="chat__avatar g-avatar"
+              />
+            </div>
+
+            <div class="other__col-right">
+              <span class="other__name">Billy</span>
+              <!-- </div> -->
+              <div class="other-col-bottom">
+                <span class="other__content"
+                  >I will see you on the next video</span
+                >
+                <span class="other__timestamp">오후 10:29</span>
+              </div>
+            </div>
+          </li>
+          <li class="message__user user message">
+            <!-- justify-content:space-between -->
+            <div class="user__col">
+              <span class="user__content">Thank you guys</span>
+              <span class="chats__timestamp g-span">오전 8:20</span>
+            </div>
+          </li>
+          <li class="message__user user message">
+            <!-- justify-content:space-between -->
+            <div class="user__col">
+              <span class="user__content"
+                >I've learnt a lot of sick principles</span
+              >
+              <span class="chats__timestamp g-span">오후 8:20</span>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <!-- INDEX CORE CONTENTS |||END||| -->
+    </div>
+    <!--INNER END-->
+    <div class="chat__nav end">
+      <input type="text" class="end__write" />
+      <div class="end__icon-left end__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="end__icon-right end__icon">
+        <span class="end__write-icon">
+          <i class="far fa-grin-hearts "></i>
+        </span>
+        <span class="end__write-icon">
+          <i class="fab fa-slack-hash "></i>
+        </span>
+      </div>
+      <!-- <div class="nav-bar__endbar"></div> -->
+    </div>
+    <!-- NAV END -->
+    <!-- Media Query -->
+    <div class="warning">
+      <h1 class="warning__title">the width is too big</h1>
+      <h2 class="warning__subtitle">Please shrink site up to 500px</h2>
+    </div>
+  </body>
+</html>
